@@ -1,0 +1,11 @@
+﻿@{
+    object values = ViewData["Model"];
+    var htmlAttr = new ViewDataDictionary();
+
+    foreach (System.ComponentModel.PropertyDescriptor descriptor in System.ComponentModel.TypeDescriptor.GetProperties(values))
+    {
+        htmlAttr[descriptor.Name.Replace("_", "-")] = descriptor.GetValue(values);
+    }
+    htmlAttr["type"] = "text";
+}
+@Html.TextBox("", ViewData.TemplateInfo.FormattedModelValue, htmlAttr)

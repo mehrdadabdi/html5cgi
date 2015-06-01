@@ -1,0 +1,103 @@
+﻿
+/* Basic */
+
+
+#text
+{
+border:solid 1px gray;
+width:100px;
+}
+
+/*CSS for dropdown box*/
+select
+{
+width: 200px;
+height: 29px;
+border-radius: 3px;
+border: 1px solid #CCC;
+font-weight: 200;
+font-size: 15px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+}
+select: hover
+{
+width: 200px;
+height: 29px;
+border-radius: 3px;
+border: 1px solid #CCC;
+font-weight: 200;
+font-size: 15px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+}
+
+/*CSS for input textbox and password*/
+
+input[type='text'], input[type='password']
+{
+
+
+border-radius: 3px;
+border: 1px solid #aaa;
+padding: 5px;
+font-weight: 200;
+font-size: 15px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+}
+
+input[type='text']:hover, input[type='password']:hover
+{
+
+border: 1px solid #4800ff;
+
+}
+
+/*CSS for textarea*/
+
+textarea
+{
+width: 200px;
+height: 90px;
+border-radius: 3px;
+border: 1px solid #CCC;
+padding: 8px;
+font-weight: 200;
+font-size: 15px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+}
+textarea:hover
+{
+width: 200px;
+height: 90px;
+border-radius: 3px;
+border: 1px solid #aaa;
+padding: 8px;
+font-weight: 200;
+font-size: 15px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+}
+
+/*input type for submit button*/
+
+input[type='submit']
+{
+    border-radius:6px;
+
+  border:solid 0px Gray;
+
+}
+input[type='submit']:hover
+{
+      border:solid 0px Gray;
+    border-radius:6px;
+
+
+}
+.input-group-btn:not(:first-child):not(:last-child) >.btn {
+    border-radius: 5px;
+
+}

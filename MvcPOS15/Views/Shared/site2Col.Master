@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" MasterPageFile="~/Views/Shared/site2.Master" %>
+
+<asp:Content ID="indexContent" ContentPlaceHolderID="MainContent" runat="server">
+        <header id="header-full">
+    <div class="wrap-primary">
+        <div class="container">
+    
+    <div class="row">
+  <div class="col-lg-2 ">
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+    aliquip ex ea commodo consequat.</p>
+  </div>
+  <div class="col-lg-6"> 
+  
+         <asp:ContentPlaceHolder ID="MainWideTop" runat="server">
+                 </asp:ContentPlaceHolder>
+  </div>
+
+</div>
+
+
+            </div>
+        </div>
+
+
+            </header>
+</asp:Content>

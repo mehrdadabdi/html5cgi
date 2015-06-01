@@ -1,0 +1,5 @@
+C:\Users\mehrdad\Documents\Visual Studio 2013\Projects\MvcPos3\CLWeb\bin\Debug\CLWeb.dll
+C:\Users\mehrdad\Documents\Visual Studio 2013\Projects\MvcPos3\CLWeb\bin\Debug\CLWeb.pdb
+C:\Users\mehrdad\Documents\Visual Studio 2013\Projects\MvcPos3\CLWeb\obj\Debug\CLWeb.dll
+C:\Users\mehrdad\Documents\Visual Studio 2013\Projects\MvcPos3\CLWeb\obj\Debug\CLWeb.pdb
+C:\Users\mehrdad\Documents\Visual Studio 2013\Projects\MvcPos3\CLWeb\obj\Debug\CLWeb.csprojResolveAssemblyReference.cache

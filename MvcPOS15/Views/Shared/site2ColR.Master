@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" MasterPageFile="~/Views/Shared/site2.Master" %>
+
+<asp:Content ID="indexContent" ContentPlaceHolderID="MainContent" runat="server">
+    <div style="margin-top:100px;" ></div>
+        <header id="header-full">
+    <div class="wrap-primary">
+        <div class="container">
+    
+    <div class="row">
+  <div class="col-lg-6 ">
+   <asp:ContentPlaceHolder ID="MainWideTop" runat="server">
+                 </asp:ContentPlaceHolder>
+  </div>
+  <div class="col-lg-3"> 
+
+      <img src="/assets/img/smart-phone-istock.jpg" />
+
+  </div>
+
+</div>
+
+
+            </div>
+        </div>
+
+
+            </header>
+</asp:Content>

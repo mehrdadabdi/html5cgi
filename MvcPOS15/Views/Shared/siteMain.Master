@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" MasterPageFile="~/Views/Shared/site2.Master" %>
+
+
+<asp:Content ID="indexContent" ContentPlaceHolderID="MainContent" runat="server">
+    <header id="header-full">
+    <div class="wrap-primary">
+        <div class="container">
+            <asp:ContentPlaceHolder ID="MainWideTop" runat="server">
+                 </asp:ContentPlaceHolder>
+                <div class="row header-full-icons text-center">
+                <div class="col-sm-3 animated fadeInDown animation-delay-19">
+                    <asp:ContentPlaceHolder ID="ContentLeft" runat="server">
+                   
+                         </asp:ContentPlaceHolder>
+                </div>
+                <div class="col-sm-3 animated fadeInDown animation-delay-21">
+                    <asp:ContentPlaceHolder ID="ContentMiddle" runat="server">
+                 
+                        </asp:ContentPlaceHolder>
+                </div>
+                <div class="col-sm-3 animated fadeInDown animation-delay-22">
+                     <asp:ContentPlaceHolder ID="ContentRight" runat="server">
+                  
+                            </asp:ContentPlaceHolder>
+                </div>
+                <div class="col-sm-3 animated fadeInDown animation-delay-23">
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    
+    <asp:ContentPlaceHolder ID="scriptsContent"  runat="server">
+        </asp:ContentPlaceHolder>
+</asp:Content>

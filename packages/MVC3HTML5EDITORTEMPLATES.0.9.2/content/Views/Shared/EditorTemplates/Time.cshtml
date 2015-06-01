@@ -1,0 +1,13 @@
+﻿@{
+    dynamic modelType = ViewData["Model"];
+
+    modelType.type = "time";
+    if (this.ViewData.ContainsKey("type"))
+    {
+        this.ViewData["type"] = "time";
+    }
+    else {
+        this.ViewData.Add("type", "time");
+    }       
+}
+@Html.TextBox("", ViewData.TemplateInfo.FormattedModelValue, ViewData["Model"])
